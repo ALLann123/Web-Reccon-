@@ -3,8 +3,11 @@ Bash scripting to automate enumeration of web applications.
 Automated port scaning with nmap, directory bruteforcing with dirsearch and finding web certificates using curl to fetch it from the crt.sh web site for domain certificates. After gathering the above details the tool automatically generates a report for the enumeration carried out.
 
 On kali make sure to install nmap and dirsearch to use the tool:
+
         kali> sudo apt update                     #update the repository
+        
         kali>sudo apt install nmap                #for port scanning
+        
         kali>sudo apt install dirsearch                        #for directory bruteforcing
 
 usage to get help do:
